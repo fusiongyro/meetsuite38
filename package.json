@@ -4,6 +4,10 @@
   "description": "A Vue.js project",
   "author": "Daniel Lyons <fusion@storytotell.org>",
   "private": true,
+  "engines": {
+    "node": "4.4.7",
+    "npm": "2.15.x"
+  },
   "scripts": {
     "start": "node build/dev-server.js",
     "build": "node build/build.js",
