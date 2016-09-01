@@ -25,9 +25,7 @@ export default {
   },
 
   ready() {
-    console.log(Pikaday)
     this.picker = new Pikaday({ field: document.getElementById('tryme') })
-    console.log(this.picker)
   }
 }
 </script>

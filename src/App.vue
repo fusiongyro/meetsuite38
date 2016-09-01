@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="container">
-    <hello></hello>
+    <router-view></router-view>
     <p>
       Welcome to your Vue.js app!
     </p>
@@ -23,11 +23,7 @@
 </template>
 
 <script>
-import Hello from './components/Hello'
-
-export default {
-  components: {
-    Hello
+  export default {
+    replace: false
   }
-}
 </script>
