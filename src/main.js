@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App'
 import Hello from './components/Hello.vue'
+import Home from './components/Home.vue'
 import './assets/app.less';
 
 import VueRouter from 'vue-router'
@@ -11,6 +12,9 @@ var router = new VueRouter();
 
 router.map({
   '/': {
+    component: Home
+  },
+  '/hello': {
     component: Hello
   }
 });
