@@ -11,3 +11,17 @@ header nav {
 main {
   .container;
 }
+
+.panel {
+  margin-bottom: @line-height-computed;
+  background-color: @panel-bg;
+  border: 1px solid transparent;
+  border-radius: @panel-border-radius;
+  .box-shadow(0 10px 10px rgba(0, 0, 0, 0.3));
+}
+
+// Panel contents
+.panel-body {
+  padding: @panel-body-padding;
+  &:extend(.clearfix all);
+}
