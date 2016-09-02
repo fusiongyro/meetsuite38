@@ -1,6 +1,6 @@
 <template>
   <div class="form-group has-feedback">
-    <input type="text" class="form-control" :value="date" v-date :options="options">
+    <input class="form-control" v-model="date" v-date :options="options">
     <i class="glyphicon form-control-feedback glyphicon-calendar"></i>
   </div>
 </template>

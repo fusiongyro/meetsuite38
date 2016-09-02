@@ -1,7 +1,7 @@
 <template>
   <form>
     <h1>Make a Reservation</h1>
-    <date-picker :date="tryme"></date-picker>
+    <date-picker :date.sync="thedate"></date-picker>
   </form>
 </template>
 
@@ -22,7 +22,7 @@
         // preserves its current state and we are modifying
         // its initial state.
         msg: 'Hello World!',
-        tryme: null
+        thedate: "I'm a default value"
       }
     }
   }
