@@ -2,6 +2,7 @@ import Vue from 'vue'
 import App from './App'
 import Hello from './components/Hello.vue'
 import Home from './components/Home.vue'
+import Reservation from './components/Reservation.vue'
 import './assets/app.less'
 import vPikaday from 'vue-pikaday'
 import VueRouter from 'vue-router'
@@ -17,6 +18,9 @@ router.map({
   },
   '/hello': {
     component: Hello
+  },
+  '/reservation': {
+    component: Reservation
   }
 });
 

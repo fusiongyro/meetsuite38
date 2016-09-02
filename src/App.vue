@@ -10,7 +10,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Brand</a>
+        <a class="navbar-brand" href="#">MeetSuite</a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -18,6 +18,7 @@
         <ul class="nav navbar-nav">
           <li><a href="#/">Home</a></li>
           <li><a href="#/hello">Hello</a></li>
+          <li><a href="#/reservation">Make a Reservation</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </nav>
